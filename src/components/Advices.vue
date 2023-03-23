@@ -43,6 +43,7 @@ function ButtonAdvice() {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 50px;
 }
 
 .main p {
@@ -50,5 +51,7 @@ function ButtonAdvice() {
   font-weight: 700;
   line-height: 72px;
   color: #D6D6D6;
+  width: 500px;
+  margin: 0;
 }
 </style>
