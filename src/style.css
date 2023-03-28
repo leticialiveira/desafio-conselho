@@ -43,7 +43,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background: #005777;
+  background-image: linear-gradient( -50deg, rgba(6,27,39,1) 0%, rgba(0, 149, 155, 1 ) 18%, rgba(217, 254, 255,1) 51%, rgba(80, 222, 227 ,1) 100% );
+  /* animation: AnimateBG 5s ease infinite; */
 }
 
 h1 {
@@ -59,7 +60,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: rgba(6,27,39,1);
   cursor: pointer;
   transition: border-color 0.25s;
 }

@@ -44,6 +44,8 @@ function ButtonAdvice() {
   justify-content: center;
   flex-direction: column;
   gap: 50px;
+  border: solid 1px #D6D6D6;
+  border-radius: 15px;
 }
 
 .main p {
